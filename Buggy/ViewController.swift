@@ -9,17 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+	@IBAction func buttonTapped(_ sender: UIButton) {
+		print("Called buttonTapped(_:)")
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
-
 }
-
